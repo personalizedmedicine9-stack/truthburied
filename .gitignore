@@ -1,0 +1,8 @@
+@"
+node_modules/
+.next/
+*.log
+bun.lock
+db/*.db
+db/*.db-journal
+"@ | Set-Content -Encoding utf8 .gitignore
